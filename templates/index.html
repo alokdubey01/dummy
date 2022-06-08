@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+  <style>
+    html{
+      overflow: hidden;
+    }
+  </style>
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+<head>
+  <nav>
+    <ul id="left">
+      <li>logo</li>
+      <li>{{date}}</li>
+    </ul>
+    <ul id="right">
+      <li><div class="dropdown">
+        <img onclick="myFunction()" class="dropbtn" src="{% static 'img/img_2162.png' %}" alt="user">
+        <i class="fas fa-circle user-circle dropbtn" onclick="myFunction()"></i>
+        <div id="myDropdown" class="dropdown-content">
+          <a class="user-info" href="profile.html">
+           <div class="flex">
+           <div class="user_inline">
+            <img src="../static/img/IMG_2162.png" alt="" class="profile_link">
+            <h4>Hallo Alok</h4>
+           </div>
+           </div>
+            <a class="console" href="">Go to profile</a>
+          </a>
+          <hr>
+          <div class="a_lists">
+            <a class="a" href="#">Your Posts</a>
+          <a class="a" href="#">Link 2</a>
+          <a class="a" href="#">Link 3</a>
+          </div>
+        </div>
+      </div></li>
+    </ul>
+  </nav>
+<div class="container">
+  <header>
+    <ul>
+      <li><label for="">Groups</label></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Python Community</a></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Web Devloper Team</a></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Blooger Commmunity</a></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Home Design Consult</a></li>
+
+      <li><label for="">Friends</label></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Allen Walker</a></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Morven Rechard</a></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Alok Dubey</a></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Harry Thomson</a></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Joe Hawker</a></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Rafeal Ratch</a></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Aryan Khanna</a></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Ayush Gupta</a></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Nikita Atilkson</a></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Tom Holland</a></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Yakub Haesh</a></li>
+      <li><a href="#"><img src="../static/img/user.png" alt=""> Shii Mau Lee</a></li>
+    </ul>
+  </header>
+
+  <section class="content">
+   <a href="#">
+    <div class="banner">
+      <img src="https://images.unsplash.com/photo-1631283512703-3c23463ba155?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
+     <div class="inline">
+       <div class="date">
+         <h5>8</h5>
+         <h5>Mar</h5>
+       </div>
+     </div>
+     <div class="inline">
+       <h1>How to manage your time to get more done</h1>
+       <div class="flex">
+         <span>10:20 PM</span>
+         <span>Gadgets</span>
+       </div>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quod consequuntur unde aliquam dolorem cumque hic at magni nihil illo. Soluta quisquam dolorum incidunt voluptatem exercitationem laboriosam necessitatibus illo. Vel corrupti voluptas, eos non quidem possimus similique amet maiores repudiandae optio enim? Autem eligendi incidunt eveniet necessitatibus culpa alias quidem?</p>
+       <div class="flex">
+         <img src="../static/img/user.png" alt="">
+         <div class="banner_text">
+           <h4>Alok Dubey</h4>
+           <h6>CEO Blooger</h6>
+         </div>
+       </div>
+     </div>
+    </div>
+   </a>
+  </section>
+
+  <section class="events">
+    <div class="event">
+      <h4>Events</h4>
+    </div>
+    <div class="event">
+      <h4>Impressions</h4>
+    </div>
+    <div class="event">
+      <h4>Recommended</h4>
+    </div>
+  </section>
+</div>
+  <script src="../static/js/function.js"></script>
+</body>
+</html>
